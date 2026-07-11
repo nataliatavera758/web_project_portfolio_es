@@ -15,8 +15,8 @@ const projects = [
   {
     emoji: '💻',
     image: undefined,
-    title: 'Proyecto 2',
-    description: 'Descripción de tu segundo proyecto y las tecnologías utilizadas para resolverlo.',
+    title: 'Portafolio de servicios',
+    description: 'Se realiza presentación desarrollo de pagina web en concordancia de lo solicitado',
     tags: ['React', 'Node.js'],
     demo: '#',
     repo: '#',
