@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning HTML designs effortlessly with this user-friendly web application, perfect for designers and developers looking to enhance their projects.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
