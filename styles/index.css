@@ -20,7 +20,7 @@ body { background: var(--bg); color: var(--fg); font-family: 'DM Sans', sans-ser
 .accent { color: var(--accent); }
 .italic { font-style: italic; }
 .gradient-text { background: linear-gradient(135deg,var(--accent),var(--accent-light)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
-.section { padding: 8rem 2rem; position: relative; }
+.section { padding-block:8rem; padding-inline:0; position: relative; }
 .section-divider { position:absolute;top:0;left:50%;transform:translateX(-50%);width:min(600px,90%);;height:1px;background:linear-gradient(90deg,transparent,rgba(240,237,232,0.08),transparent); }
 .section-label { display:inline-flex;align-items:center;gap:.5rem;color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:1.25rem; }
 .section-label::before { content:'';width:24px;height:1px;background:var(--accent); }
