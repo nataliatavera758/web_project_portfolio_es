@@ -127,7 +127,7 @@ h1 { font-family:'Fraunces',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight
 
 /* CONTACT */
 .contact-inner { display:grid; grid-template-columns:3fr 2fr;gap:4rem;align-items:start; width:100%; }
-.contact-form { width: 100%; max-width: 350px; margin: 0 auto; background: var(--card); border: 1px solid var(--border);border-radius: 1.5rem; padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem;}
+.contact-form { width: 100%; max-width: 300px; margin: 0 auto; background: var(--card); border: 1px solid var(--border);border-radius: 1.5rem; padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem;}
 .form-row { display:grid;grid-template-columns:1fr 1fr;gap:1rem; }
 .form-group { display:flex;flex-direction:column; }
 .form-group label { color:rgba(240,237,232,.5);font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.5rem; }
