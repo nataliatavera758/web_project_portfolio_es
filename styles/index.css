@@ -140,7 +140,7 @@ h1 { font-family:'Fraunces',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight
 .contact-item { display:flex;align-items:center;gap:1rem;background:var(--card);border:1px solid var(--border);border-radius:.875rem;padding:1rem 1.25rem;text-decoration:none;transition:border-color .2s,transform .2s; overflow-wrap:anywhere; width:100%; }
 .contact-item:hover { border-color:rgba(232,71,95,.3);transform:translateX(4px); }
 .ci-label { color:rgba(240,237,232,.4);font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.2rem; }
-.contact-item div div:last-child { color:var(--fg);font-size:.875rem;font-weight:500; }
+.contact-item div div:last-child { color:var(--fg);font-size:.875rem;font-weight:500; overflow-wrap:anywhere;}
 .contact-item div{ min-width:0;}
 .contact-item div:last-child{ word-break:break-word;}
 
@@ -166,7 +166,7 @@ h1 { font-family:'Fraunces',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight
   .hero-card-wrap { justify-content:center; }
   .skills-grid { grid-template-columns:1fr; }
   .form-row { grid-template-columns:1fr; }
-  .footer-inner { flex-direction:column; text-align:center; grid-template-columns:1fr; gap:2rem;}
+  .footer-inner { flex-direction:column; text-align:center; grid-template-columns:1fr; gap:1.5rem;}
   .contact-form{ width:100%;}
   .contact-info{ width:100%;}
 }
