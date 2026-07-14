@@ -45,6 +45,7 @@ h2 { font-family:'Fraunces',serif;font-size:clamp(2rem,4vw,3rem);font-weight:600
 .navbar.scrolled { background:rgba(8,8,12,.85);backdrop-filter:blur(16px);border-color:var(--border); }
 .nav-inner { height:64px;display:flex;align-items:center;justify-content:space-between; }
 .logo { font-family:'Fraunces',serif;font-size:1.2rem;font-weight:600;color:var(--fg);text-decoration:none;letter-spacing:-.02em; }
+img{ display:block; max-width:100%; height:auto;}
 .nav-links { display:flex;gap:2.5rem;list-style:none; }
 .nav-links a { color:rgba(240,237,232,.6);text-decoration:none;font-size:.875rem;font-weight:500;letter-spacing:.02em;transition:color .2s; }
 .nav-links a:hover { color:var(--fg); }
@@ -170,5 +171,6 @@ h1 { font-family:'Fraunces',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight
 .hero-card-container{ max-width:280px;}
 .projects-grid{ grid-template-columns:1fr;}
 .btn-primary,.btn-outline{ width:100%;text-align:center;}
-.hero-btns{flex-direction:column;}
+.hero-btns{flex-direction:column;align-items:stretch;}
+ .hero-btns a{ width:100%;}
 }
