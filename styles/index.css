@@ -92,7 +92,7 @@ h1 { font-family:'Fraunces',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight
 .trait-desc { color:rgba(240,237,232,.5);font-size:.875rem;line-height:1.6;font-weight:300; }
 
 /* PROJECTS */
-.projects-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); }
+.projects-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr)); gap:2rem; }
 .project-card { background:var(--card);border:1px solid var(--border);border-radius:1.25rem;padding:2rem;display:flex;flex-direction:column;gap:1.25rem;transition:transform .25s,border-color .25s,box-shadow .25s;position:relative;overflow:hidden; }
 .project-card:hover { transform:translateY(-4px);border-color:rgba(232,71,95,.4);box-shadow:0 16px 48px rgba(0,0,0,.4); }
 .project-card.featured { border-color:rgba(232,71,95,.25); }
@@ -126,7 +126,7 @@ h1 { font-family:'Fraunces',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight
 .skill-fill { height:100%;background:linear-gradient(90deg,rgba(232,71,95,.5),var(--accent));border-radius:2px; }
 
 /* CONTACT */
-.contact-inner { display:grid;grid-template-columns:3fr 2fr;gap:4rem;align-items:start; }
+.contact-inner { display:grid; grid-template-columns:3fr 2fr;gap:4rem;align-items:start; width:100%; }
 .contact-form { background:var(--card);border:1px solid var(--border);border-radius:1.5rem;padding:2.5rem;display:flex;flex-direction:column;gap:1.25rem; }
 .form-row { display:grid;grid-template-columns:1fr 1fr;gap:1rem; }
 .form-group { display:flex;flex-direction:column; }
@@ -166,7 +166,7 @@ h1 { font-family:'Fraunces',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight
   .hero-card-wrap { justify-content:center; }
   .skills-grid { grid-template-columns:1fr; }
   .form-row { grid-template-columns:1fr; }
-  .footer-inner { flex-direction:column; text-align:center; }
+  .footer-inner { flex-direction:column; text-align:center; grid-template-columns:1fr; gap:2rem;}
   .contact-form{ width:100%;}
   .contact-info{ width:100%;}
 }
